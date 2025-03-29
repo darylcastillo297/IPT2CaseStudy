@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #333;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 2rem;
+            text-align: center;
+        }
+        .about-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .project {
+            background: white;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+        }
+        .project a {
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+        }
+        .project a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #333;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-container">
+            <img src="https://dl.dropboxusercontent.com/scl/fi/wbjcr7ljodw7z1carjc9k/formal-pic.png?rlkey=ohxt4dx6rcj9iwys1qevuo8de&st=xw7y1omm" alt="Profile Picture" class="profile-pic">
+            <h3>TYRONE CLIFFORD A. CUYO</h3>
+            <p>
+                Hello! My name is Tyrone Clifford Cuyo. I am a TSU student majoring in network administration <br> for
+                their bachelor's degree in science at the College of Computer Studies, with a passion for networking and
+                technology. <br> In my free time, I enjoy eating and reading manga.
+            </p>
+        </div>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <a href="http://ccsvirtualtour.free.nf/?i=2" target="_blank">
+                <h3>Project 1</h3>
+                <p>CCS VIRTUAL TOUR</p>
+            </a>
+        </div>
+        
+    </section>
+    
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="tyroneclifford@gmail.com" >tyroneclifford@gmail.com</a></p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 My Portfolio</p>
+    </footer>
+</body>
+</html>
